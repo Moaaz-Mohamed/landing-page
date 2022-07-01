@@ -1,0 +1,181 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+        font-family: 'Roboto', sans-serif;
+}
+/* Start Header  */
+.header{
+    display: flex;
+    flex-direction: column;
+    background-image: url("../imgs/back.jpg");
+
+}
+.header .up {
+    padding: 10px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.header .up .logo span{
+    color: white;
+    font-size: 20px;
+    font-weight:bold ;
+}
+.header .up .links{
+    margin-left: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.header .up .links a{
+    color: white;
+    text-decoration: none;
+    margin-left: 10px;
+    font-size: 10px;
+}
+.header .down{
+    padding: 30px;
+    display: flex;
+    justify-content: space-evenly;
+    justify-content: center;
+    align-items: center;
+}
+.header .down .left{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    color: white;
+}
+.header .down .left h2{
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.header .down .left p{
+    font-size: 10px;
+    width: 50%;
+    line-height: 1.3;
+    margin-bottom: 20px;
+}
+.header .down .left button{
+    font-size: 10px;
+    color: white;
+    background-color:#3882F6 ;
+    border:5px solid #3882F6;
+    border-radius: 30px;
+}
+.header .down .right img{
+    border-radius: 30px;
+}
+/* End Header  */
+/* Start Section  */
+.section{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+.section .top{
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+.section .boxies{
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 170px;
+}
+.section .boxies .box{
+    width: 150px;
+    height: 170px;
+    margin-bottom: 15px;
+
+}
+.section .boxies .box img{
+    width: 130px;
+    margin-bottom: 10px;
+    height: 110px;
+    border-radius: 30px;
+}
+.section .boxies .box p{
+    font-size: 20px;
+    line-height: 1.2;
+}
+/* End Section  */
+/* Start Section 2 */
+.section2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #E5E7EB;
+    width: 100%;
+    height: 300px;
+    color: white;
+    color: black;
+} 
+.section2 .secinfo{
+    display: flex;
+    flex-direction: column;
+    width: 75%;
+}
+.section2 .secinfo p {
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+.section2 .secinfo h2{
+    font-weight: bold;
+    align-self: flex-end;
+}
+/* End Section 2 */
+/* Start Section 3 */
+.section3{
+    width: 100%;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.section3 .secinfo{
+    background-color: #3882F6;
+    width: 75%;
+    height: 50%;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+    color: white;
+}
+.section3 .secinfo .left h1{
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.section3 .secinfo .right button{
+    width: 110px;
+    padding: 10px;
+    color: white;
+    background-color: #3882F6;
+    border-color:white;
+    border-radius: 11px;
+    font-weight: bold;
+    font-size: 15px;
+}
+/* End Section 3 */
+/* Start Footer  */
+.footer{
+    background-color:#1F2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90px;
+    color: white;
+}
+.footer p{
+    font-size: 15px;
+    font-weight: bold;
+}
+/* End Footer  */
